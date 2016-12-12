@@ -1,0 +1,32 @@
+body {
+	margin: auto;
+	background-image: url(light_grey.png);
+	background-attachment: fixed;
+	color: #008080;
+	font-size: 16px;
+	font-family: "Lucida Console", Monaco, monospace;
+}
+
+header {
+	border: 5px solid #c5c3d6;
+	background-image: linear-gradient(to bottom, transparent, 
+#c5c3d6, #37fdfc);
+	background-image: -webkit-linear-gradient(to bottom, 
+transparent, #c5c3d6, #37fdfc);
+	background-image: -moz-linear-gradient(to bottom, 
+transparent, #c5c3d6, #37fdfc);
+	margin-top: 25px;
+	margin-left: 100px;
+	margin-right: 100px;
+	padding: 25px;
+}
+
+a {
+	color: #000000;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #c5c3d6;
+	text-decoration: none;
+}
